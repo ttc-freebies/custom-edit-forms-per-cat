@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" version="{{version}}" group="system" method="upgrade">
+  <name>PLG_CUSTOMCONTENTEDITFORM</name>
+  <author>Dimitris Grammatikogiannis</author>
+  <copyright>{{copyright}}</copyright>
+  <creationDate>{{date}}</creationDate>
+  <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+  <authorEmail>support@perfectgrid.io</authorEmail>
+  <authorUrl>https://perfectgrid.io</authorUrl>
+  <version>{{version}}</version>
+  <description>PLG_CUSTOMCONTENTEDITFORM_XML_DESCRIPTION</description>
+  <files>
+    <filename plugin="customcontenteditform">customcontenteditform.php</filename>
+  </files>
+    <languages folder="language">
+    <language tag="en-GB">en-GB/en-GB.plg_system_customcontenteditform.ini</language>
+    <language tag="en-GB">en-GB/en-GB.plg_system_customcontenteditform.sys.ini</language>
+  </languages>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field
+          name="categories"
+          type="category"
+          label="PLG_CUSTOMCONTENTEDITFORM_CATEGORY_FIELD"
+          multiple="true"
+          extension="com_content"
+          layout="joomla.form.field.list-fancy-select"
+          hint="JOPTION_SELECT_CATEGORY"
+          published="0,1,2"
+        />
+      </fieldset>
+    </fields>
+  </config>
+    <updateservers>
+    <server type="extension" priority="1" name="PLG_CUSTOMCONTENTEDITFORM">https://customcontenteditform.netlify.dev/pkgs/update_plg.xml</server>
+  </updateservers>
+</extension>

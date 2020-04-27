@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>{{name}}</name>
+    <version>{{version}}</version>
+    <infourl title="{{name}}"><![CDATA[https://customcontenteditform.netlify.dev]]></infourl>
+    <downloads>
+      <downloadurl type="full" format="zip"><![CDATA[https://customcontenteditform.netlify.dev/pkgs/{{filename}}]]></downloadurl>
+    </downloads>
+    <targetplatform name="joomla" version="4.*"/>
+    <element>{{codeName}}</element>
+    <type>{{type}}</type>
+    <folder>{{folder}}</folder>
+    <client>{{client}}</client>
+  </update>
+</updates>

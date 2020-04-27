@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Override edit views based on category id</title>
+  <link rel="icon" href="_media/favicon.ico">
+  <meta name="keywords" content="joomla,custom,content,edit,form">
+  <meta name="description" content="Override edit views based on category id">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify/themes/dark.css">
+</head>
+<body>
+  <nav data-cloak>
+    <a href="#/">En</a>
+  </nav>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Override edit views based on category id',
+      maxLevel: 0,
+      subMaxLevel: 0,
+      auto2top: true,
+      coverpage: true,
+      loadSidebar: true,
+      executeScript: true,
+      markdown: {
+        renderer: {
+          code: function (code, lang) {
+            if (lang === "mermaid") {
+              return (
+                '<div class="mermaid">' + mermaid.render(lang, code) + "</div>"
+              );
+            }
+            return this.origin.code.apply(this, arguments);
+          }
+        }
+      }
+    }
+    </script>
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+</body>
+</html>
