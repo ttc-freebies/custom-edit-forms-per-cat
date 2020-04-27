@@ -3,9 +3,9 @@
   <update>
     <name>Custom content edit form Plugin</name>
     <version>1.0.0</version>
-    <infourl title="Custom content edit form Plugin"><![CDATA[https://customcontenteditform.netlify.dev]]></infourl>
+    <infourl title="Custom content edit form Plugin"><![CDATA[https://customcontenteditform.netlify.app]]></infourl>
     <downloads>
-      <downloadurl type="full" format="zip"><![CDATA[https://customcontenteditform.netlify.dev/pkgs/plg_customcontenteditform_v1.0.0.zip]]></downloadurl>
+      <downloadurl type="full" format="zip"><![CDATA[https://customcontenteditform.netlify.app/pkgs/plg_customcontenteditform_v1.0.0.zip]]></downloadurl>
     </downloads>
     <targetplatform name="joomla" version="4.*"/>
     <element>customcontenteditform</element>
