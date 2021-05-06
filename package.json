@@ -30,7 +30,7 @@
     "crypto": "1.0.1",
     "fs-extra": "9.1.0",
     "glob": "7.1.6",
-    "server": "1.0.31",
+    "server": "1.0.33",
     "jszip": "3.5.0",
     "replace-in-file": "6.2.0"
   }
