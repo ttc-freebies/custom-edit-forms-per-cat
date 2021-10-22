@@ -32,6 +32,6 @@
     "glob": "7.2.0",
     "server": "1.0.36",
     "jszip": "3.7.1",
-    "replace-in-file": "6.2.0"
+    "replace-in-file": "6.3.2"
   }
 }
