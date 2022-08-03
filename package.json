@@ -31,7 +31,7 @@
     "fs-extra": "10.1.0",
     "glob": "8.0.3",
     "server": "1.0.37",
-    "jszip": "3.10.0",
+    "jszip": "3.10.1",
     "replace-in-file": "6.3.5"
   }
 }
