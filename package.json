@@ -29,7 +29,7 @@
     "archiver": "5.3.1",
     "crypto": "1.0.1",
     "fs-extra": "10.1.0",
-    "glob": "8.0.3",
+    "glob": "9.3.4",
     "server": "1.0.37",
     "jszip": "3.10.1",
     "replace-in-file": "6.3.5"
