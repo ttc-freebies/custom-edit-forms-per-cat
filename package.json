@@ -32,6 +32,6 @@
     "glob": "10.5.0",
     "server": "1.0.41",
     "jszip": "3.10.1",
-    "replace-in-file": "8.3.0"
+    "replace-in-file": "8.4.0"
   }
 }
